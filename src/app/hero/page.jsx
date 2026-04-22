@@ -1,6 +1,10 @@
 import { Button } from "@heroui/react";
 import React from "react";
 
+export const metadata = {
+  title: "Hero Page",
+};
+
 const HeroPage = () => {
   return (
     <section className="mt-10">

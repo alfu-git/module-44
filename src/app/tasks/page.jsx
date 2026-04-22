@@ -2,6 +2,10 @@ import TaskCard from "@/components/tasksPage/TaskCard";
 import getTasks from "@/lib/tasks";
 import React from "react";
 
+export const metadata = {
+  title: "Tasks Page",
+};
+
 const TasksPage = async () => {
   const tasks = await getTasks();
 

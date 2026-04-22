@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/shared/navbar/Navbar";
+import HeroUIThemeProvider from "@/providers/HeroUIThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,10 +23,13 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-      data-theme="dark"
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
-        <main className="container mx-auto px-5">{children}</main>
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        <HeroUIThemeProvider>
+          <Navbar />
+          <main className="container mx-auto px-5">{children}</main>
+        </HeroUIThemeProvider>
       </body>
     </html>
   );
