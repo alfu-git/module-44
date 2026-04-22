@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Complete React Project",
+    "description": "Finish the KeenKeeper app with all features and routing",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 2,
+    "title": "Write README File",
+    "description": "Create a professional README with features, setup, and screenshots",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-23"
+  },
+  {
+    "id": 3,
+    "title": "Fix Timeline Sorting",
+    "description": "Ensure sorting by date and type works correctly",
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "title": "Add Toast Notifications",
+    "description": "Show toast messages on call, text, and video actions",
+    "status": "completed",
+    "priority": "medium",
+    "dueDate": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "title": "Design Stats Page",
+    "description": "Implement pie chart using Recharts for analytics",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-26"
+  },
+  {
+    "id": 6,
+    "title": "Optimize UI Design",
+    "description": "Improve responsiveness and UI with Tailwind CSS",
+    "status": "pending",
+    "priority": "low",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 7,
+    "title": "Deploy Project",
+    "description": "Deploy the app to Vercel or Netlify",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-30"
+  }
+]
