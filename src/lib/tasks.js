@@ -5,3 +5,10 @@ const getTasks = async () => {
 };
 
 export default getTasks;
+
+export const postNewTask = async (newTask) => {
+  newTask.id = tasks.length + 1;
+  tasks.push(newTask);
+
+  return { ok: true, message: "New Task Added Successfully" };
+};
